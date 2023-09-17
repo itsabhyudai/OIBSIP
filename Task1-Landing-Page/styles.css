@@ -1,0 +1,175 @@
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #000;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: serif;
+}
+
+.container ul {
+    list-style-type: none;
+}
+
+.container ul li {
+    display: inline;
+    margin-right: 30px;
+    font-family: cursive, sans-serif;
+}
+
+.container ul li:last-child {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+li a:hover {
+    color: #FF5733;
+}
+
+
+body {
+    padding-top: 60px;
+}
+
+.content {
+    text-align: left;
+    color: #fff;
+    padding: 100px 0;
+    background-image: url(burgerbg.jpg);
+    height: 70vh;
+}
+
+.content h2 {
+    font-size: 40px;
+    font-family: cursive, sans-serif;
+    margin-left: 45px;
+    margin-top: 165px;
+}
+
+.line1{
+    font-size: 30px;
+    font-family: cursive, sans-serif;
+    margin-left: 135px;
+}
+
+.line2{
+    font-size: 30px;
+    font-family: cursive, sans-serif;
+    margin-left: 20px;
+}
+
+.ob1{
+    font-family: serif;
+    font-size: 32px;
+}
+
+.ob2{
+    font-family: serif;
+    font-size: 28px;
+}
+
+.ob3{
+    font-family: serif;
+    font-size: 22px;
+}
+
+.ob4{
+    font-family: serif;
+    font-size: 35px;
+}
+
+.button2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 132px;
+    font-family: cursive, sans-serif;
+}
+
+.button2:hover {
+    background-color: rgba(246, 44, 18, 0.8);
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    background-image: url(burgerbg2.jpg);
+    height: 108vh;
+}
+
+.left-content {
+    flex: 1;
+    padding: 0 145px;
+}
+
+.right-content {
+    flex: 1;
+    padding: 0 140px;
+}
+
+.about h2 {
+    font-size: 60px;
+    font-family: cursive, sans-serif;
+}
+
+.para1 {
+    font-size: 30px;
+    font-family: cursive, sans-serif;
+}
+
+.contact ul {
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.para2 {
+    font-size: 30px;
+    font-family: cursive, sans-serif;
+}
+
+
+
+.footer {
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}
